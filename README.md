@@ -16,6 +16,7 @@ Welcome to the Django Blogging Website! This is a simple blogging platform built
 Before you begin, ensure you have the following installed on your machine:
 
 - Python (version 3.x)
+- Django (version 4.x)
 - Pipenv (for virtual environment management)
 
 ### Installation
@@ -27,9 +28,10 @@ Before you begin, ensure you have the following installed on your machine:
   ```bash
    cd django-blogging-website
   ```
-3. Install dependencies using Pipenv:
+3. Installing Django:To install it, make sure you have Python 3.10 or greater installed. Then run
+this command from the command prompt:
   ```bash
-  pipenv install
+    python -m pip install .
   ```
 ### Configuration
 
@@ -64,7 +66,7 @@ Visit http://localhost:8000/ in your web browser to access the blogging website.
 
   ```bash
 
-pipenv run python manage.py createsuperuser
+python manage.py createsuperuser
 ```
 
 Access the Django admin panel at http://localhost:8000/admin/ to manage blog posts and users.
