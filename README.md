@@ -28,11 +28,11 @@ Before you begin, ensure you have the following installed on your machine:
   ```bash
    cd django-blogging-website
   ```
-3. Installing Django:To install it, make sure you have Python 3.10 or greater installed. Then run
-this command from the command prompt:
-  ```bash
-    python -m pip install .
-  ```
+3. Install dependencies using Pipenv:
+
+```bash
+pipenv install
+```
 ### Configuration
 
 1. Create a .env file in the project root and configure the following settings:
