@@ -23,13 +23,28 @@ Before you begin, ensure you have the following installed on your machine:
    ```bash
    git clone https://github.com/your-username/django-blog.git
 
-Navigate to the project directory:
+2. Navigate to the project directory:
   ```bash
- cd django-blogging-website
-```
-Install dependencies using Pipenv:
+   cd django-blogging-website
+  ```
+3. Install dependencies using Pipenv:
+  ```bash
+  pipenv install
+  ```
+### Configuration
+
+1.Create a .env file in the project root and configure the following settings:
 ```bash
-pipenv install
+
+DEBUG=True
+SECRET_KEY=your_secret_key
+DATABASE_URL=sqlite:///db.sqlite3
+```
+Update your_secret_key with a secure Django secret key.
+
+2.Apply database migrations:
+```bash
+pipenv run python manage.py migrate
 ```
 
    
