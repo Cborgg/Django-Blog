@@ -23,12 +23,14 @@ Before you begin, ensure you have the following installed on your machine:
    ```bash
    git clone https://github.com/your-username/django-blog.git
 
-   Navigate to the project directory:
-cd django-blogging-website
-
+Navigate to the project directory:
+  ```bash
+ cd django-blogging-website
+```
 Install dependencies using Pipenv:
-
+```bash
 pipenv install
+```
 
    
 
