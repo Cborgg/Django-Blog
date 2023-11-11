@@ -9,8 +9,6 @@ Welcome to the Django Blogging Website! This is a simple blogging platform built
 - [Configuration](#configuration)
 - [Running the Project](#running-the-project)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Getting Started
 
@@ -24,6 +22,13 @@ Before you begin, ensure you have the following installed on your machine:
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/django-blog.git
+
+   Navigate to the project directory:
+cd django-blogging-website
+
+Install dependencies using Pipenv:
+
+pipenv install
 
    
 
